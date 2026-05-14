@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rest Countries Api</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p><b>Where in the world ?</b></p>
+
+        <div class="theme-switcher">
+          <div class="icon"></div>
+          <p>Dark mode</p>
+        </div>
+      </header>
+
+      <div class="searchSection">
+        <div class="searchIcon">
+          <i class="bx bx-search searchBtn"></i>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="search for a country"
+          />
+        </div>
+      </div>
+
+      <div id="countryContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
