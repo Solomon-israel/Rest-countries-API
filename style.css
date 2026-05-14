@@ -59,7 +59,7 @@ header {
   display: grid;
   gap: 3rem;
   color: white;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 .countryCard img {
@@ -76,9 +76,9 @@ header {
   line-height: 25px;
 }
 
-.about {
-  /* margin-bottom: 2rem; */
-}
+/* .about {
+  margin-bottom: 2rem;
+} */
 
 .lightMode {
   background-color: white;
